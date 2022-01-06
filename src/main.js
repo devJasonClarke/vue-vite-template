@@ -1,11 +1,9 @@
-import { ViteSSG } from 'vite-ssg'
+import { ViteSSG } from "vite-ssg";
 import App from "./App.vue";
 import { setupLayouts } from "virtual:generated-layouts";
 import generatedRoutes from "virtual:generated-pages";
 
 const routes = setupLayouts(generatedRoutes);
-
-console.log(routes)
 
 export const createApp = ViteSSG(
   // the root component
@@ -16,4 +14,4 @@ export const createApp = ViteSSG(
   ({ app, router, routes, isClient, initialState }) => {
     // install plugins etc.
   }
-)
+);
