@@ -1,22 +1,17 @@
 <template>
-    <div>
-        <TheTest/>
-<h3>Again</h3>
+  <div>
+    <TheTest />
+    <h3>Again</h3>
     <router-link to="/">home</router-link>
-
-    </div>
+  </div>
 </template>
 
 <script>
 export default {
-    setup () {
-        
-
-        return {}
-    }
-}
+  setup() {
+    return {};
+  }
+};
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

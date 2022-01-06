@@ -1,17 +1,10 @@
 <template>
   <div>
-    <App />
-    <h1>Home</h1>
-    <router-link to="/again">again</router-link>
+    <h2>Run with the gun</h2>
+    <router-view />
   </div>
 </template>
-<route>
-{
-  meta: {
-    layout: "secondLayout"
-  }
-}
-</route>
+
 <script>
 export default {
   setup() {

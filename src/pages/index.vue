@@ -1,20 +1,16 @@
 <template>
-<Nav/>
+  <TheNav />
   <div>
-    <h1>The home view</h1>
+    <img src="@/assets/logo.png" alt="why are you running" />
+    <h1>Welcome to the home view</h1>
     <router-link to="/about">about</router-link>
-    <Footer/>
+    <TheFooter />
   </div>
 </template>
 
 <script>
 export default {
-  setup() {
-    return {};
-  },
+  setup() {}
 };
 </script>
-
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
